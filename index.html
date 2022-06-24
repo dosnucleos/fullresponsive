@@ -6,7 +6,8 @@
     <title>MallPress - Prensa & Comunicacion</title>
     <link rel="icon" type="image" href="img/iso33.png"/>
     <LINK REL=StyleSheet HREF="estilo/estilo.css" TYPE="text/css" MEDIA=screen>
-
+    <link rel="stylesheet" href="estilo/animate.css">
+    
 </head>
 <body >
 
@@ -58,12 +59,12 @@
          
         <main id="que">
             <div>   
-                <img src="img/bombilla2.png" class="img__que" alt="Foto Bombilla de ideas"> 
+                <img src="img/bombilla2.png" class="img__que scalar" alt="Foto Bombilla de ideas"> 
             
             
             </div>
 
-            <section class="novedades__principal">
+            <section class="novedades__principal wow animate__fadeIn">
                 <h2> CADA CUAL ATIENDE SU JUEGO </h2>
                 <h3>  y el que no, Google no lo encontrará</h3>
                 <br>
@@ -79,8 +80,8 @@
         </main>
         
         
-        <section id="news1" class="novedades__articulos">
-            <h2> Novedades del Mundo Tech </h2>
+        <section id="news1" class="novedades__articulos wow bounceInUp">
+            <h2 > Novedades del Mundo Tech </h2>
              
              <div class="flex__noticias"> 
                 <div class="articulo__ancho"> 
@@ -194,8 +195,16 @@
             </section>
 
     </footer>
-    <div class="footer__copy"> Copyright 2022 - Todos los derechos reservados</div>
+    <div class="footer__copy wow animate__fadeInUp"> Copyright 2022 - Todos los derechos reservados</div>
     
 </div>
+
+
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+
 </body>
 </html>

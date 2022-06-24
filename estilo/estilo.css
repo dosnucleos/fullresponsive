@@ -116,9 +116,33 @@ nav ul li a strong {
 }
 
 nav ul li strong:hover{
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 700;
+
 }
+
+/*  
+.transform:hover{
+	transform: translate(-30px,20px);
+	cursor: pointer;
+	transition: transform 2s;
+}
+
+.rotate:hover{
+	transform: rotateZ(-360deg);
+	cursor: pointer;
+	transition: transform 2s;
+}
+
+*/
+
+.scalar:hover{
+	transform: translate(5px,-5px);
+	cursor: pointer;
+	transition: transform 1s;
+}
+
+
 
 h1 {
     font-family: lato, sans serif;
@@ -130,7 +154,10 @@ h1 {
 h1:hover{
     font-family: lato, sans serif;
     color: #000000;
-    font-size: 4.7rem;
+    transform: translate(-5px,5px);
+	cursor: pointer;
+	transition: transform 1s;
+    
 }
 
 h2{ 
